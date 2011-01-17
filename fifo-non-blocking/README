@@ -1,0 +1,8 @@
+non-blocking fifo test.
+
+issue "make svr" command in terminal to build server, and "make cnt" to build client.
+
+in terminal, "./svr" to invoke server process. it waits 10 seconds until 4 bytes data from client.
+
+another terminal shell, invoke client by the command "./cnt". it writes server's pipe 4 bytes data.
+
